@@ -18,10 +18,6 @@ public class Main {
   3. Which sort algorithm has an easier implemenation (in terms of understanding) to you?  
   Although the code for bubble sort is technically longer, it makes more sense to me in that its only responsibility is to compare and possibly swap two neighboring elements,
   without needing to relocate either value at a specific place in the array.
-  
-  Note: When used as provided, the code resulted in an ordered version of integerList, even though it had been ordered within the method
-  and stored in a new variable (bubbleSortedList). This caused the second sort algorithm to be provided with an already-sorted list, which 
-  boosted its performance significantly. integerList = Lab4.getList() was added to eliminate the effect.
 
   */
 
